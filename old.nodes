@@ -1,0 +1,25 @@
+Region: Forested Hills (Jamoss Forest)
+    Blackburn           0,0
+        -> Game Trail to Kaska Ravine, 2.24 miles
+        -> Game Trail to Tailfort, 6.08
+        -> Game Trail to Tomb of Haraldus, 3.16 miles
+    Kaska Ravine        2,1
+        -> Game Trail to Tailfort, 5.1 miles
+        -> Path to Tomb of Haraldus, 1 mile
+        -> Game Trail to Moonsilver Tower 5,6, 5.83 miles
+        -> Path to Chekhir's Temple 7,3, 5.39 miles
+        -> Road to 4,2, 2.24 miles
+    Tailfort            1,6
+        -> Game Trail to Kaska Ravine, 5.1 miles
+        -> Path to 5,10, 5.66 miles
+        -> Road to Moonsilver Tower 5,6, 4 miles
+        -> Game Trail to Chekhir's Temple 7,3, 6.71 miles
+    Tomb of Haraldus    3,1
+        -> Path to Kaska Ravine, 1 mile
+        -> Road to Chekhir's Temple 7,3, 4.47 miles
+        -> Game Trail to 4,2, 1.41 miles
+        -> Road to 5,10, 7.28 miles
+    Moonsilver Tower    5,6
+    Dartleby Ford       5,10
+    Chekhir's Temple    7,3
+                        4,2

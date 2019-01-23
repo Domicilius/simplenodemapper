@@ -1,0 +1,41 @@
+--- !Node
+name: Blackburn
+position: [0, 0]
+edges:
+  - Tailfort
+  - Tomb of Haraldus
+  - Kaska Ravine
+--- !Node
+name: Tailfort
+position: [1, 6]
+edges:
+  - Kaska Ravine
+  - Moonsilver Tower
+  - Chekhir's Temple
+--- !Node
+name: Kaska Ravine
+position: [2, 1]
+edges:
+  - Tailfort
+  - Tomb of Haraldus
+  - Moonsilver Tower
+  - Chekhir's Temple
+--- !Node
+name: Tomb of Haraldus
+position: [3, 1]
+edges:
+  - Kaska Ravine
+  - Chekhir's Temple
+  - Dartleby Ford
+--- !Node
+name: Moonsilver Tower
+position: [5, 6]
+edges:
+--- !Node
+name: Dartleby Ford
+position: [5, 10]
+edges:
+--- !Node
+name: Chekhir's Temple
+position: [7, 3]
+edges:

@@ -35,8 +35,9 @@ G.add_edges_from(edgelist)
 
 # pos = nx.shell_layout(G)
 nx.draw_networkx_nodes(G, pos, node_size=200, node_shape='s')
-nx.draw_networkx_edges(G, pos)
+#nx.draw_networkx_edges(G, pos)
 # nx.draw_networkx_labels(G, pos, font_size=5, font_family='sans-serif')
 
 # plt.axis([0, 10, 0, 10])
+plt.axis('off')
 plt.show()

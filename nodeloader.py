@@ -27,8 +27,8 @@ with open("nodedata.yaml", 'r') as stream:
             for i in data.edges:
                 edgelist.append((data.name, i))
         newpos = list(data.position)
-        newpos[0] = newpos[0] * 1000
-        newpos[1] = newpos[1] * 1000
+        newpos[0] = newpos[0] * 1
+        newpos[1] = newpos[1] * 1
         pos[data.name] = newpos
 
 G.add_edges_from(edgelist)
@@ -38,5 +38,5 @@ nx.draw_networkx_nodes(G, pos, node_size=200, node_shape='s')
 nx.draw_networkx_edges(G, pos)
 # nx.draw_networkx_labels(G, pos, font_size=5, font_family='sans-serif')
 
-plt.axis('off')
+# plt.axis([0, 10, 0, 10])
 plt.show()
